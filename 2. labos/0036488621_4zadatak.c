@@ -120,8 +120,8 @@ int main (int argc, char *argv[]){
 
     for (i = y_pocetak; i <= y_kraj; i++){
         for (j = x_pocetak; j <= x_kraj; j++){
-            for (k = 0; k < 16; k++){
-                for (l = 0; l < 16; l++){
+            for (k = 0; k < BLOK; k++){
+                for (l = 0; l < BLOK; l++){
                         mad += abs(trazeni_blok[k][l] - (ulaz_slika1->podatci[(i + k) * ulaz_slika1->sirina + (j + 1 + l)]));
                 }
             }
