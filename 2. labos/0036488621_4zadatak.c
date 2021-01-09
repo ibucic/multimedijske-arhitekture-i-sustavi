@@ -136,6 +136,7 @@ int main (int argc, char *argv[]){
             mad = 0;
         }
     }
+	// printf("Blok %d: (%d,%d), MAD: %f\n", x_blok, x_vektor, y_vektor, min_mad);
     printf("%d,%d\n", x_vektor, y_vektor);
 
 }
